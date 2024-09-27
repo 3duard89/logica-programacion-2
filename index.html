@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coversor Grados</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <main class="main">
+
+        <div class="contenedor">
+            <div class="formulario">
+                <h1>Conversor</h1>
+                <div class="seleccion">
+                    <label for="grado">Seleccione Grados</label>
+                    <select name="quegrado" id="queGrado" title="Escoge Un Tipo">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div>        
+                <div class="ingreso">
+                    <label for="grados">Ingrese Grados</label>
+                    <input type="number" name="grados" id="grados" title="Ingresa Grados">
+                </div>
+                <button id="convertir">Convertir</button>
+                <div class="contieneResultado">
+                    <div class="k">
+                        <p>Equivalente a <span id="G1"></span></p>
+                    </div>
+                    <div class="f">
+                        <p>Equivalente a <span id="G2"></span></p>
+                    </div>
+                </div>    
+            </div> 
+        </div>
+
+
+
+
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
